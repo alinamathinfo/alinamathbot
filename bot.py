@@ -21,7 +21,7 @@ dp = Dispatcher()
 conn = sqlite3.connect("students.db")
 cursor = conn.cursor()
 
-# Создание таблицы пользователей ыаывавыа
+# Создание таблицы пользователей
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS students (
         id INTEGER PRIMARY KEY,
